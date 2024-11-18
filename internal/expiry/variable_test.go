@@ -17,8 +17,8 @@ package expiry
 import (
 	"testing"
 
-	"github.com/maypok86/otter/internal/generated/node"
-	"github.com/maypok86/otter/internal/unixtime"
+	"github.com/ad3n/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/unixtime"
 )
 
 func contains[K comparable, V any](root, f node.Node[K, V]) bool {

@@ -17,7 +17,7 @@ package otter
 import (
 	"math"
 
-	"github.com/maypok86/otter/internal/stats"
+	"github.com/ad3n/otter/internal/stats"
 )
 
 // Stats is a statistics snapshot.

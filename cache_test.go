@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 func getRandomSize(t *testing.T) int {

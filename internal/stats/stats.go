@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 // Stats is a thread-safe statistics collector.

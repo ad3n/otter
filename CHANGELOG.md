@@ -2,19 +2,19 @@
 
 ### 🐞 Bug Fixes
 
-- Added collection of eviction statistics for expired entries. ([#108](https://github.com/maypok86/otter/issues/108))
+- Added collection of eviction statistics for expired entries. ([#108](https://github.com/ad3n/otter/issues/108))
 
 ## 1.2.2 - 2024-08-14
 
 ### ✨️Features
 
-- Implemented `fmt.Stringer` interface for `DeletionReason` type ([#100](https://github.com/maypok86/otter/issues/100))
+- Implemented `fmt.Stringer` interface for `DeletionReason` type ([#100](https://github.com/ad3n/otter/issues/100))
 
 ### 🐞 Bug Fixes
 
-- Fixed processing of an expired entry in the `Get` method ([#98](https://github.com/maypok86/otter/issues/98))
-- Fixed inconsistent deletion listener behavior ([#98](https://github.com/maypok86/otter/issues/98))
-- Fixed the behavior of `checkedAdd` when over/underflow ([#91](https://github.com/maypok86/otter/issues/91))
+- Fixed processing of an expired entry in the `Get` method ([#98](https://github.com/ad3n/otter/issues/98))
+- Fixed inconsistent deletion listener behavior ([#98](https://github.com/ad3n/otter/issues/98))
+- Fixed the behavior of `checkedAdd` when over/underflow ([#91](https://github.com/ad3n/otter/issues/91))
 
 ## 1.2.1 - 2024-04-15
 
@@ -43,13 +43,13 @@ hasExpired := entry.HasExpired()
 
 ### ✨️Features
 
-- Added `DeletionListener` to the builder ([#63](https://github.com/maypok86/otter/issues/63))
-- Added `Extension` ([#56](https://github.com/maypok86/otter/issues/56))
+- Added `DeletionListener` to the builder ([#63](https://github.com/ad3n/otter/issues/63))
+- Added `Extension` ([#56](https://github.com/ad3n/otter/issues/56))
 
 ### 🚀 Improvements
 
 - Added support for Go 1.22
-- Memory consumption with small cache sizes is reduced to the level of other libraries ([#66](https://github.com/maypok86/otter/issues/66))
+- Memory consumption with small cache sizes is reduced to the level of other libraries ([#66](https://github.com/ad3n/otter/issues/66))
 
 ## 1.1.1 - 2024-03-06
 
@@ -65,15 +65,15 @@ Another expected improvement is the correction of minor synchronization problems
 
 ### ✨️Features
 
-- Added `DeleteByFunc` function to cache ([#44](https://github.com/maypok86/otter/issues/44))
-- Added `InitialCapacity` function to builder ([#47](https://github.com/maypok86/otter/issues/47))
-- Added collection of additional statistics ([#57](https://github.com/maypok86/otter/issues/57))
+- Added `DeleteByFunc` function to cache ([#44](https://github.com/ad3n/otter/issues/44))
+- Added `InitialCapacity` function to builder ([#47](https://github.com/ad3n/otter/issues/47))
+- Added collection of additional statistics ([#57](https://github.com/ad3n/otter/issues/57))
 
 ### 🚀 Improvements
 
-- Added proactive queue-based and timer wheel-based expiration policies with O(1) time complexity ([#55](https://github.com/maypok86/otter/issues/55))
-- Added node code generation ([#55](https://github.com/maypok86/otter/issues/55))
-- Fixed the race condition when changing the order of events ([#59](https://github.com/maypok86/otter/issues/59))
+- Added proactive queue-based and timer wheel-based expiration policies with O(1) time complexity ([#55](https://github.com/ad3n/otter/issues/55))
+- Added node code generation ([#55](https://github.com/ad3n/otter/issues/55))
+- Fixed the race condition when changing the order of events ([#59](https://github.com/ad3n/otter/issues/59))
 - Reduced memory consumption on small caches
 
 ## 1.0.0 - 2024-01-26
@@ -81,12 +81,12 @@ Another expected improvement is the correction of minor synchronization problems
 ### ✨️Features
 
 - Builder pattern support
-- Cleaner API compared to other caches ([#40](https://github.com/maypok86/otter/issues/40))
-- Added `SetIfAbsent` and `Range` functions ([#27](https://github.com/maypok86/otter/issues/27))
-- Statistics collection ([#4](https://github.com/maypok86/otter/issues/4))
+- Cleaner API compared to other caches ([#40](https://github.com/ad3n/otter/issues/40))
+- Added `SetIfAbsent` and `Range` functions ([#27](https://github.com/ad3n/otter/issues/27))
+- Statistics collection ([#4](https://github.com/ad3n/otter/issues/4))
 - Cost based eviction
 - Support for generics and any comparable types as keys
-- Support ttl ([#14](https://github.com/maypok86/otter/issues/14))
-- Excellent speed ([benchmark results](https://github.com/maypok86/otter?tab=readme-ov-file#-performance-))
+- Support ttl ([#14](https://github.com/ad3n/otter/issues/14))
+- Excellent speed ([benchmark results](https://github.com/ad3n/otter?tab=readme-ov-file#-performance-))
 - O(1) worst case time complexity for S3-FIFO instead of O(n)
-- Improved hit ratio of S3-FIFO on many traces ([simulator results](https://github.com/maypok86/otter?tab=readme-ov-file#-hit-ratio-))
+- Improved hit ratio of S3-FIFO on many traces ([simulator results](https://github.com/ad3n/otter?tab=readme-ov-file#-hit-ratio-))

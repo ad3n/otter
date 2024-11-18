@@ -18,16 +18,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/maypok86/otter/internal/expiry"
-	"github.com/maypok86/otter/internal/generated/node"
-	"github.com/maypok86/otter/internal/hashtable"
-	"github.com/maypok86/otter/internal/lossy"
-	"github.com/maypok86/otter/internal/queue"
-	"github.com/maypok86/otter/internal/s3fifo"
-	"github.com/maypok86/otter/internal/stats"
-	"github.com/maypok86/otter/internal/unixtime"
-	"github.com/maypok86/otter/internal/xmath"
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/expiry"
+	"github.com/ad3n/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/hashtable"
+	"github.com/ad3n/otter/internal/lossy"
+	"github.com/ad3n/otter/internal/queue"
+	"github.com/ad3n/otter/internal/s3fifo"
+	"github.com/ad3n/otter/internal/stats"
+	"github.com/ad3n/otter/internal/unixtime"
+	"github.com/ad3n/otter/internal/xmath"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 // DeletionCause the cause why a cached entry was deleted.

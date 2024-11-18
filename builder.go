@@ -18,7 +18,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/maypok86/otter/internal/core"
+	"github.com/ad3n/otter/internal/core"
 )
 
 const (

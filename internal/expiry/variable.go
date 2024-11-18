@@ -19,9 +19,9 @@ import (
 	"math/bits"
 	"time"
 
-	"github.com/maypok86/otter/internal/generated/node"
-	"github.com/maypok86/otter/internal/unixtime"
-	"github.com/maypok86/otter/internal/xmath"
+	"github.com/ad3n/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/unixtime"
+	"github.com/ad3n/otter/internal/xmath"
 )
 
 var (

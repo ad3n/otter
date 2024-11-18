@@ -10,7 +10,7 @@ deps: ## Install all the build and lint dependencies
 .PHONY: fmt
 fmt: ## Run format tools on all go files
 	gci write --skip-vendor --skip-generated \
-        -s standard -s default -s "prefix(github.com/maypok86/otter)" .
+        -s standard -s default -s "prefix(github.com/ad3n/otter)" .
 	gofumpt -l -w .
 
 .PHONY: lint

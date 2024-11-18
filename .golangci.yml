@@ -70,7 +70,7 @@ linters-settings:
     sections:
       - standard # Standard lib
       - default # External dependencies
-      - prefix(github.com/maypok86/otter) # Internal packages
+      - prefix(github.com/ad3n/otter) # Internal packages
   gocritic:
     enabled-tags:
       - diagnostic

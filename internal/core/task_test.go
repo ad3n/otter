@@ -17,7 +17,7 @@ package core
 import (
 	"testing"
 
-	"github.com/maypok86/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/generated/node"
 )
 
 func TestTask(t *testing.T) {

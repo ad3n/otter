@@ -17,9 +17,9 @@ import (
 
 	"github.com/dolthub/maphash"
 
-	"github.com/maypok86/otter/internal/generated/node"
-	"github.com/maypok86/otter/internal/xmath"
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/xmath"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 type resizeHint int

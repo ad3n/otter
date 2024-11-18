@@ -1,6 +1,6 @@
 package s3fifo
 
-import "github.com/maypok86/otter/internal/generated/node"
+import "github.com/ad3n/otter/internal/generated/node"
 
 type queue[K comparable, V any] struct {
 	head node.Node[K, V]

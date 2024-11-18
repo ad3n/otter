@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/maypok86/otter/internal/unixtime"
+	"github.com/ad3n/otter/internal/unixtime"
 )
 
 // BEC is a cache entry that provide the following features:

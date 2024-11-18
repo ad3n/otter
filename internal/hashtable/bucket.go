@@ -25,7 +25,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 // paddedBucket is a CL-sized map bucket holding up to

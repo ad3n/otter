@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-<a href="https://pkg.go.dev/github.com/maypok86/otter"><img src="https://pkg.go.dev/badge/github.com/maypok86/otter.svg" alt="Go Reference"></a>
-<img src="https://github.com/maypok86/otter/actions/workflows/test.yml/badge.svg" />
+<a href="https://pkg.go.dev/github.com/ad3n/otter"><img src="https://pkg.go.dev/badge/github.com/ad3n/otter.svg" alt="Go Reference"></a>
+<img src="https://github.com/ad3n/otter/actions/workflows/test.yml/badge.svg" />
 <a href="https://codecov.io/gh/maypok86/otter" >
     <img src="https://codecov.io/gh/maypok86/otter/graph/badge.svg?token=G0PJFOR8IF"/>
 </a>
-<img src="https://goreportcard.com/badge/github.com/maypok86/otter" />
+<img src="https://goreportcard.com/badge/github.com/ad3n/otter" />
 <a href="https://github.com/avelino/awesome-go"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Go"></a>
 </p>
 
@@ -59,7 +59,7 @@ Otter is based on the following papers:
 ### 🛠️ Installation <a id="installation" />
 
 ```shell
-go get -u github.com/maypok86/otter
+go get -u github.com/ad3n/otter
 ```
 
 ### ✏️ Examples <a id="examples" />
@@ -74,7 +74,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/maypok86/otter"
+    "github.com/ad3n/otter"
 )
 
 func main() {
@@ -116,7 +116,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/maypok86/otter"
+    "github.com/ad3n/otter"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/maypok86/otter
+module github.com/ad3n/otter
 
 go 1.22
 

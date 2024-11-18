@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/maypok86/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/generated/node"
 )
 
 func checkQueueLen[K comparable, V any](t *testing.T, q *queue[K, V], length int) bool {

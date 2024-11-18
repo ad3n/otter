@@ -30,8 +30,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/maypok86/otter/internal/generated/node"
-	"github.com/maypok86/otter/internal/xruntime"
+	"github.com/ad3n/otter/internal/generated/node"
+	"github.com/ad3n/otter/internal/xruntime"
 )
 
 func TestMap_PaddedBucketSize(t *testing.T) {
